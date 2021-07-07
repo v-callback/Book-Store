@@ -1,0 +1,121 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-family: 'Comic Neue', cursive;
+    /* background-image: linear-gradient(#fff 85%, #c3f5ff 20%); */
+}
+ul{
+    padding-right: 5;
+}
+.navbar{
+    background-color: #a29bfe!important;
+}
+.navbar a{
+    color: white;
+    font-size: 25px;
+}
+.navbar a:hover{
+    color: black;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+
+.para{
+    font-size: 20px;
+    font-weight: bold;
+}
+.image{
+    height: 300px;
+    max-width: 100%;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .cards_item {
+    display: flex;
+    padding: 1rem;
+  }
+  
+  @media (min-width: 40rem) {
+    .cards_item {
+      width: 50%;
+    }
+  }
+  
+  @media (min-width: 56rem) {
+    .cards_item {
+      width: 33.3333%;
+    }
+  }
+  
+
+.card {
+    background-color: white;
+    border-radius: 0.25rem;
+    box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  
+  .card_content {
+    padding: 1rem;
+    background: linear-gradient( #EF8D9C 40%, #FFC39E 100%);
+    opacity: 1;
+  
+  } 
+  
+  .card_title {
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin: 0px;
+  }
+  
+  .card_text {
+    color: #ffffff;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    margin-bottom: 1.25rem;    
+    font-weight: 400;
+  }
+  .btn{
+      justify-content: center;
+      align-items: center;
+      background-color: cornflowerblue;
+  }
+.btn:hover{
+    background-color: red;
+
+
+}
+
+footer{
+    background-color: #a29bfe;
+    text-transform: uppercase;
+    
+}
+footer a, p{
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+footer p{
+  color: black;
+}
+footer a:hover{
+  color: black;
+}
